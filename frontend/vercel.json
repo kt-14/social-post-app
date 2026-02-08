@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+```
+
+#### File: `frontend/.env.production`
+Create this file:
+```
+VITE_API_URL=https://your-backend-name.onrender.com/api
